@@ -8,6 +8,13 @@
 * A demonstration of using CI (Continuous Integration) with GitHub Actions
 * ...
 
+## Screenshots
+### TDD, DDT test script with JUnit
+![TDD DDT test script](https://raw.githubusercontent.com/phucpinku/mathutil-1854/refs/heads/main/screenshots/TDD_DDT%20with%20JUnit.png)
+
+### Build app with Maven
+![Maven builder](https://raw.githubusercontent.com/phucpinku/mathutil-1854/refs/heads/main/screenshots/Maven%20Builder.png)
+
 ### Connect me via: hongphuchong456@gmail.com
 
 #### &#169; 2025 phuc pinku
