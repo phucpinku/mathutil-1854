@@ -14,15 +14,16 @@ public class MathUtility {
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("n must be between 0 and 20");
         }   // bạn đưa invalid data, ném ra ngoại lệ, hàm không đc chạy thành công, không value trả về
-        if (n == 0)
+        if (n == 0 || n == 1)
             return 1;
         // sống sót đến đây n = 1...19
-        //dùng for tính
-        long result = 1; // thuật toán dồn con heo đất
-        for (int i = 1; i <= n; i++) {
-            result *= i;    //nhân dồn vào từng i
-        }
-        return result;
+        //ĐỆ QUY - RECURSSION
+
+        return n * getFactorial(n-1);
+        // ĐEM RA SERVER MÀ RA MÀU XANH
+            //1. CODE TỐI ƯU NGON VÌ PASS TEST CASE
+            //2. TEST LẠI THỨ TỪNG TEST RẤT MẤT CÔNG, MAY CÓ SCRIPT TEST TỰ ĐỘNG
+            // REGRESSION TESTING, KIỂM THỬ HỒI QUY
     }
 
 }
