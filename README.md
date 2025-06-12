@@ -1,4 +1,5 @@
 # Welcome to Math Utility Repository
+[![Math Utility Project (CI included) | © 2025 by phucpinku](https://github.com/phucpinku/mathutil-1854/actions/workflows/CI-script.yml/badge.svg)](https://github.com/phucpinku/mathutil-1854/actions/workflows/CI-script.yml)
 
 ## You will find in this repo the following stuff:
 
